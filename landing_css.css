@@ -61,11 +61,10 @@ h2
 
 .page
 {
-	background-color: rgba(265, 265, 265, 1);
-	width: 100%;
+	width: 100vw;
 	position: relative;
 	margin-left: -50%;
-	height: 100%;
+	height: 100vh;
 	margin-top: 170px;
 	left: 50%;
 }
