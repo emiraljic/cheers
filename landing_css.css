@@ -3,8 +3,8 @@
 	/*background-image: linear-gradient(135deg, yellow, deeppink);
 	height: 100vh;
 	width: 100vw;
-	background-repeat: no-repeat;
-	font-family: verdana;  */
+	background-repeat: no-repeat; */
+	font-family: verdana;  
 	background-color: #95002D;
 }
 
@@ -16,7 +16,7 @@
   top: 0; /* Position the navbar at the top of the page */
   width: 100vw; /* Full width */
   margin-left: -8px;
-  z-index: 1;
+  z-index: 2;
 }
 
 
@@ -27,21 +27,23 @@ h1
 	color: white;
 }
 
-.circle
+h2
 {
-	height: 80px;
-	width: 80px;
-	background-color: #bbb;
-	border-radius: 50%;
+	color: white;
+	font-size: 30px;
+	text-transform: uppercase;
 	display: inline-block;
+	margin-left: 150px;
+	margin-top: 75px;
+	position: absolute;
 }
 
-.circle {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 35px;
-  transform: translate(0, -50%);
+#all_drinks 
+{
+	width: 100vw;
+	height: 20%;
+	z-index: 1;
+	position: absolute;
 }
 
 .search 
@@ -54,6 +56,7 @@ h1
 {
 	width: 100vw;
 	height: 50px;
+	text-align: center;
 }
 
 .page
@@ -76,8 +79,8 @@ h1
 
 .o-buttons
 {
-	height: 100px;
-	width: 100px;
+	height: 125px;
+	width: 125px;
 	background-color: grey;
 	border-radius: 50%;
 	display: inline-block;
@@ -85,5 +88,5 @@ h1
 	position: relative;
 	top: 50%;
 	left: 35px;
-	transform: translate(0, -50%);
+	transform: translate(0, -50%);	
 }
