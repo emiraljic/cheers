@@ -16,22 +16,50 @@
   width: 100vw; /* Full width */
   margin-left: -8px;
   z-index: 3;
+  text-align: center;
 }
 
+#shelf
+{
+	width: 50px;
+	height: 50px;
+	padding: 10px;
+	float: left;
+}
+
+#logo
+{
+	width: 100px;
+	margin-top: -25px;
+	margin-bottom: 15px;
+
+}
+
+#burger 
+{
+	width: 30px;
+	padding: 20px;
+	float: right;
+
+}
 
 h1
 {
-	text-align: center;
-	padding: 25px;
 	color: white;
+	font-family: Brush Script MT;
+	font-size: 45px;
+	margin-left: -20px;
 }
 
 h2
 {
+	background-color: rgba(0, 0, 0, 0.5);
 	color: white;
 	font-size: 30px;
-	padding-top: 55px;
+	padding-top: 5px;
+	font-family: garamond;
 	text-transform: uppercase;
+	margin-top: 75px;
 }
 
 #all_drinks 
@@ -72,10 +100,17 @@ h2
 .content 
 {
 	width: 100vw;
+	background-image: url("all.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	height: 200px;
 	background-color: darkgrey;
 	text-align: center;
 	display: inline-block;
 	margin-left: -7px;
+	border-bottom-style: solid;
+	border-width: 5px;
+	border-color: rgba(0, 0, 0, 0.5);
 }
 
