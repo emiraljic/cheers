@@ -9,9 +9,22 @@
 </head>
 
 <body>
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="#">Settings</a>
+    <a href="#">About us</a>
+    <a href="#">My account</a>
+    <a href="#">Report bug</a>
+    <a href="#">Log out</a>
+  </div>
+</div>
+
+
 <div class="navbar">
     <a href="shelf.html"><img id="shelf" src="shelf.png"></a>
-    <a href="shelf.html"><img id="burger" src="hamburger.png"></a>
+    <img id="burger" src="hamburger.png" onclick="openNav()">
         <h1>Cheers!</h1>
         <a href="shelf.html"><img id="logo" src="logo.png"></a>
         <div class="search">
@@ -28,22 +41,25 @@
 </a>
 
 <div class="content">
-<h2>Placeholder</h2>
+<h2>Tequila</h2>
 </div>
 
 <div class="content">
-<h2>Placeholder</h2>
+<h2>Vodka</h2>
 </div>
 
 <div class="content">
-<h2>Placeholder</h2>
+<h2>Liquer</h2>
 </div>
 
 <div class="content">
-<h2>Placeholder</h2>
+<h2>Wine</h2>
 </div>
 
 </div>
+
+
+<script src="cheers_script.js" charset="utf-8"></script>
 
 </body>
 

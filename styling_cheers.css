@@ -1,9 +1,8 @@
 ﻿body
 {
-	background-image: linear-gradient(135deg, yellow, deeppink);
+	/*background-image: linear-gradient(135deg, yellow, deeppink);*/
 	height: 100vh;
 	background-repeat: no-repeat;
-	background-color: black;
 	font-family: verdana;
 	background-color: #95002D;
 }

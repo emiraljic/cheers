@@ -91,6 +91,17 @@
   text-align: center;
 }
 
+#landing_back
+{
+	width: 50px;
+	height: 40px;
+	padding: 10px;
+	float: left;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 20px;
+	margin: 10px;
+}
+
 
 #shelf
 {
@@ -127,6 +138,7 @@ h2
 {
 	background-color: rgba(0, 0, 0, 0.5);
 	color: white;
+	border-radius: 50px;
 	font-size: 30px;
 	padding-left: 20px;
 	font-family: garamond;
