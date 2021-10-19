@@ -4,7 +4,7 @@
 	height: 100vh;
 	width: 100vw;
 	font-family: verdana;  
-	background-image: linear-gradient(180deg, #95002D, #C3003B)
+	/*background-image: linear-gradient(180deg, #95002D, #C3003B);*/
 }
 
 .overlay {
@@ -136,7 +136,7 @@ h1
 
 h2
 {
-	background-color: rgba(0, 0, 0, 0.5);
+	background-image: linear-gradient(180deg, #95002D, #C3003B);
 	color: white;
 	border-radius: 50px;
 	font-size: 30px;
@@ -188,4 +188,7 @@ h2
 .make_button
 {
 	text-align: center;
+	padding: 10px;
+	background-image: linear-gradient(180deg, #95002D, #C3003B);
+	border-radius: 50px;
 }

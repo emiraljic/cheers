@@ -32,8 +32,8 @@
   padding: 8px;
   text-decoration: none;
   font-size: 24px;
-  background-color: #C3003B;
-  color: #818181;
+  background-color: rgba(0,0,0,0.5);
+  color: #f1f1f1;
   display: block;
   transition: 0.3s;
   border-radius: 50px;
@@ -98,6 +98,9 @@
 	height: 50px;
 	padding: 10px;
 	float: left;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 50px;
+	margin: 5px;
 }
 
 #logo
@@ -189,6 +192,7 @@ h2
 
 .flex-container {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   background-color: DodgerBlue;
   background-image: linear-gradient(180deg, white, #C3003B);
